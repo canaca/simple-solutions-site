@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07090d">
+<title>Simple Solutions Marketing | Marketing help for local businesses</title>
+<meta name="description" content="Websites, Meta ads, Google ads and fast lead follow-up for local businesses. Tell us your marketing needs or worries.">
+<meta name="robots" content="noindex, nofollow"><!-- DRAFT: remove noindex only when Cesar approves going live -->
+<!-- v4 (from v3 A): interactive. DRAFT, not published. -->
+<script>try{var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("ss-theme");if(t==="light")document.documentElement.dataset.theme="light"}catch(e){}</script>
+<style>
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;font-family:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+@media(min-width:760px){body{padding-bottom:0}}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px;position:relative}
+.skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;padding:8px;z-index:99;background:#fff;color:#000}
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:66px}
+.logo{font-weight:750;letter-spacing:-.02em;font-size:1.08rem;text-decoration:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-weight:650;letter-spacing:-.005em;padding:17px 26px;border-radius:999px;min-height:56px;transition:transform .2s,box-shadow .2s,background .2s}
+.btn:not(.small)::before{content:"";width:20px;height:20px;flex:none;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2z'/%3E%3C/svg%3E") center/contain no-repeat}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible,.sticky:focus-visible{outline:3px solid #f2b705;outline-offset:3px}
+.btn.small{padding:10px 18px;min-height:44px;font-size:.93rem}
+.hero{position:relative;overflow:hidden;padding:84px 0 92px}
+.hero h1{font-size:clamp(2.4rem,7.4vw,4.6rem);line-height:1.02;letter-spacing:-.035em;margin:0 0 22px;max-width:15ch;font-weight:780}
+.hero p.lead{font-size:clamp(1.08rem,2.2vw,1.3rem);max-width:600px;margin:0 0 34px;line-height:1.55}
+.num{display:block;margin-top:16px;font-size:.95rem;letter-spacing:.02em}
+section{padding:clamp(64px,10vw,112px) 0}
+h2{font-size:clamp(1.8rem,4.6vw,2.8rem);line-height:1.1;letter-spacing:-.03em;margin:0 0 14px;font-weight:740}
+.sub{margin:0 0 40px;max-width:620px;font-size:1.08rem}
+.grid{display:grid;gap:16px;grid-template-columns:1fr;align-items:start}
+@media(min-width:720px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(6,1fr)}.grid .card{grid-column:span 2}.grid .card:nth-child(n+4){grid-column:span 3}}
+.card{border-radius:20px;padding:28px;transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-3px)}
+.card h3{margin:0 0 10px;font-size:1.22rem;letter-spacing:-.015em}
+.card p,.card ul{margin:0}.card ul{padding-left:20px}.card li{margin:4px 0}
+.tags{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0}
+.tags li{border-radius:999px;padding:10px 18px;font-weight:550;font-size:.98rem}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:16px}
+@media(min-width:820px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:s;border-radius:20px;padding:26px 26px 28px;font-size:1.08rem;font-weight:550}
+.steps li::before{content:"0" counter(s);display:block;font-size:.85rem;font-weight:700;letter-spacing:.12em;margin-bottom:18px}
+#about .sub{font-size:clamp(1.25rem,3vw,1.75rem);line-height:1.45;letter-spacing:-.015em;max-width:30ch;margin:0}
+.final{text-align:center}.final h2{font-size:clamp(2rem,6vw,3.6rem)}.final .sub{margin-left:auto;margin-right:auto}
+footer{padding:28px 0;font-size:.9rem}
+.sticky{position:fixed;left:14px;right:14px;bottom:max(14px,env(safe-area-inset-bottom));z-index:30;display:flex;align-items:center;justify-content:center;min-height:56px;border-radius:999px;font-weight:700;text-decoration:none;font-size:1.05rem}
+@media(min-width:760px){.sticky{display:none}}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+body{background:#07090d;color:#e9edf3}
+.logo{color:#fff}header.top{background:rgba(7,9,13,.72);border-bottom:1px solid rgba(255,255,255,.07)}
+.btn{background:linear-gradient(180deg,#3ee0a6,#16b981);color:#04120c;box-shadow:0 10px 30px -8px rgba(34,211,150,.55),inset 0 1px 0 rgba(255,255,255,.35)}
+.btn:hover{box-shadow:0 16px 40px -8px rgba(34,211,150,.7)}
+.hero p.lead,.sub,.card p,.card ul{color:#a3adbd}.num{color:#7d8899}
+.glow{position:absolute;inset:-30% -10% auto auto;width:900px;height:900px;background:radial-gradient(closest-side,rgba(34,211,150,.22),transparent 70%),radial-gradient(closest-side at 30% 70%,rgba(99,102,241,.18),transparent 70%);filter:blur(10px);pointer-events:none}
+.hero h1{background:linear-gradient(180deg,#fff 30%,#b9c3d1);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card,.steps li{background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));border:1px solid rgba(255,255,255,.08)}
+.card:hover{border-color:rgba(62,224,166,.4)}.card h3{color:#fff}
+.tags li{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);color:#d7dde6}
+.steps li{color:#e9edf3}.steps li::before{color:#3ee0a6}
+#about .sub{color:#d7dde6}h2{color:#fff}
+.final{background:radial-gradient(60% 80% at 50% 100%,rgba(34,211,150,.18),transparent),#0b0e14;border-top:1px solid rgba(255,255,255,.06)}
+footer{color:#6b7585;border-top:1px solid rgba(255,255,255,.06)}
+.sticky{background:linear-gradient(180deg,#3ee0a6,#16b981);color:#04120c;box-shadow:0 12px 30px -6px rgba(0,0,0,.6)}
+
+/* v4 */
+.hd-r{display:flex;gap:10px;align-items:center}
+.tgl{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);color:inherit;font:inherit;font-size:.9rem;cursor:pointer;transition:background .2s,transform .15s}
+.tgl:hover{background:rgba(255,255,255,.09)}.tgl:active{transform:scale(.96)}
+.tgl-ico{width:16px;height:16px;border-radius:50%;box-shadow:inset -5px -3px 0 0 currentColor}
+.tgl:focus-visible,.chip:focus-visible,summary:focus-visible{outline:3px solid #f2b705;outline-offset:3px}
+.hero .glow{display:none}
+.mesh{position:absolute;inset:0;pointer-events:none;overflow:hidden;-webkit-mask-image:linear-gradient(#000 50%,transparent);mask-image:linear-gradient(#000 50%,transparent)}
+.mesh i{position:absolute;width:60vmax;height:60vmax;border-radius:50%;filter:blur(70px);opacity:.5;animation:drift 18s ease-in-out infinite alternate}
+.mesh i:nth-child(1){background:#16b981;top:-30vmax;right:-15vmax}
+.mesh i:nth-child(2){background:#6366f1;top:-10vmax;right:15vmax;opacity:.32;animation-duration:24s;animation-delay:-6s}
+.mesh i:nth-child(3){background:#0ea5e9;top:5vmax;right:-25vmax;opacity:.22;animation-duration:30s;animation-delay:-12s}
+@keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-8vmax,6vmax) scale(1.12)}100%{transform:translate(5vmax,-4vmax) scale(.92)}}
+.spot{display:none}
+@media(pointer:fine) and (min-width:900px){.spot{display:block;position:fixed;inset:0;z-index:1;pointer-events:none;background:radial-gradient(420px circle at var(--x,-999px) var(--y,-999px),rgba(62,224,166,.09),transparent 70%)}}
+main,footer{position:relative;z-index:2}
+.btn{position:relative;overflow:hidden;will-change:transform}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s}
+.btn:hover::after{transform:translateX(120%)}
+.btn:active{transform:translateY(0) scale(.97)}
+.btn:hover::before{animation:wig .5s}
+@keyframes wig{30%{transform:rotate(-12deg)}60%{transform:rotate(8deg)}}
+.pick{margin-top:30px;max-width:640px}
+.pick-h{margin:0 0 12px;font-weight:650;color:#e9edf3}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:.93rem;min-height:42px;padding:8px 16px;border-radius:999px;cursor:pointer;color:#d7dde6;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(8px);transition:background .2s,border-color .2s,color .2s,transform .15s}
+.chip:hover{border-color:rgba(62,224,166,.6)}.chip:active{transform:scale(.95)}
+.chip[aria-pressed=true]{background:#3ee0a6;color:#04120c;border-color:#3ee0a6}
+.chip[aria-pressed=true]::before{content:"\2713  "}
+.card{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transform-style:preserve-3d;will-change:transform}
+.card:hover{transform:none}
+.more{margin-top:16px;border-top:1px solid rgba(255,255,255,.08);padding-top:12px}
+.more summary{cursor:pointer;list-style:none;font-weight:600;font-size:.95rem;color:#3ee0a6;display:flex;justify-content:space-between;align-items:center;min-height:36px;border-radius:8px}
+.more summary::-webkit-details-marker{display:none}
+.more summary::after{content:"+";font-size:1.3rem;transition:transform .3s}
+.more[open] summary::after{transform:rotate(45deg)}
+.more-b ul{margin:8px 0 0;padding-left:20px;color:#a3adbd;font-size:.95rem}
+.more[open] .more-b{animation:open .35s ease}
+@keyframes open{from{opacity:0;transform:translateY(-6px)}}
+@supports (animation-timeline:view()){.sd li{animation:stepin linear both;animation-timeline:view();animation-range:entry 0% cover 35%}}
+@keyframes stepin{from{opacity:0;transform:translateY(40px) scale(.96)}}
+/* light theme */
+[data-theme=light] body{background:#f5f7fa;color:#101418}
+[data-theme=light] .logo,[data-theme=light] h2,[data-theme=light] .card h3,[data-theme=light] .pick-h{color:#0b0f14}
+[data-theme=light] header.top{background:rgba(245,247,250,.78);border-bottom-color:rgba(0,0,0,.08)}
+[data-theme=light] .hero h1{background:linear-gradient(180deg,#0b0f14 40%,#3b4654);-webkit-background-clip:text;background-clip:text}
+[data-theme=light] .hero p.lead,[data-theme=light] .sub,[data-theme=light] .card p,[data-theme=light] .card ul,[data-theme=light] .more-b ul{color:#4a5563}
+[data-theme=light] .num{color:#5b6573}
+[data-theme=light] .card,[data-theme=light] .steps li{background:rgba(255,255,255,.7);border-color:rgba(0,0,0,.08);box-shadow:0 8px 30px -18px rgba(15,23,42,.25)}
+[data-theme=light] .steps li{color:#101418}[data-theme=light] .steps li::before,[data-theme=light] .more summary{color:#0b8a5f}
+[data-theme=light] .tags li,[data-theme=light] .chip,[data-theme=light] .tgl{background:rgba(255,255,255,.7);border-color:rgba(0,0,0,.12);color:#1f2933}
+[data-theme=light] .chip[aria-pressed=true]{background:#0b8a5f;border-color:#0b8a5f;color:#fff}
+[data-theme=light] #about .sub{color:#1f2933}
+[data-theme=light] .more{border-top-color:rgba(0,0,0,.08)}
+[data-theme=light] .mesh i{opacity:.28}
+[data-theme=light] .final{background:radial-gradient(60% 80% at 50% 100%,rgba(22,185,129,.18),transparent),#e9eef3;border-top-color:rgba(0,0,0,.06)}
+[data-theme=light] footer{color:#5b6573;border-top-color:rgba(0,0,0,.06)}
+[data-theme=light] .spot{background:radial-gradient(420px circle at var(--x,-999px) var(--y,-999px),rgba(22,185,129,.08),transparent 70%)}
+@media(prefers-reduced-motion:reduce){.mesh i,.sd li,.more-b,.btn::before{animation:none!important}.btn::after{display:none}.spot{display:none!important}}
+@media(max-width:480px){.tgl-t{display:none}.tgl{padding:8px 12px}}
+
+dialog#gate{border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:0;max-width:min(400px,calc(100vw - 32px));width:100%;background:#0f131a;color:#e9edf3;box-shadow:0 30px 80px -20px rgba(0,0,0,.8)}
+dialog#gate::backdrop{background:rgba(3,5,8,.6);backdrop-filter:blur(6px)}
+dialog#gate[open]{animation:pop .25s ease}@keyframes pop{from{opacity:0;transform:scale(.96) translateY(8px)}}
+.gate-f{padding:28px 24px 22px;text-align:center}
+#gate h2{font-size:1.5rem;margin:0 0 6px;color:inherit}#gate p{margin:0 0 18px;color:#a3adbd}
+.icons{display:flex;justify-content:center;gap:12px;margin-bottom:8px}
+.ic{width:84px;height:84px;border-radius:18px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:#e9edf3;cursor:pointer;display:grid;place-items:center;transition:transform .15s,border-color .2s}
+.ic:hover{border-color:#3ee0a6}.ic:active{transform:scale(.94)}.ic svg{width:40px;height:40px}
+.ic:focus-visible,.gate-x:focus-visible{outline:3px solid #f2b705;outline-offset:3px}
+.gate-m{min-height:1.5em;font-size:.95rem;margin:8px 0!important}
+.gate-x{font:inherit;background:none;border:0;color:#a3adbd;text-decoration:underline;cursor:pointer;min-height:44px;padding:0 12px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+[data-theme=light] dialog#gate{background:#fff;color:#101418;border-color:rgba(0,0,0,.1)}
+[data-theme=light] #gate p,[data-theme=light] .gate-x{color:#4a5563}
+[data-theme=light] .ic{background:#f5f7fa;border-color:rgba(0,0,0,.12);color:#101418}
+@media(prefers-reduced-motion:reduce){dialog#gate[open]{animation:none}}
+.logo .tag{font-family:"Brush Script MT","Segoe Script",cursive;font-weight:400;font-style:italic;opacity:.75;margin-left:6px;font-size:.95em}@media(max-width:420px){.logo .tag{display:none}}</style>
+</head>
+<body>
+<div class="spot" aria-hidden="true"></div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+  <a class="logo" href="#">Simple Solutions Marketing</a>
+  
+  <div class="hd-r"><button type="button" class="tgl" id="tgl" aria-pressed="false" aria-label="Switch to light mode"><span class="tgl-ico" aria-hidden="true"></span><span class="tgl-t">Light</span></button><a class="btn small" href="mailto:cnavarro.business@gmail.com" data-msg>Message us</a></div>
+</div></header>
+
+<main id="main">
+<section class="hero"><div class="mesh" aria-hidden="true"><i></i><i></i><i></i></div><div class="wrap reveal">
+  <h1>Tell us your marketing needs or worries.</h1>
+  <p class="lead">Simple Solutions Marketing helps local businesses get found, get leads and answer them fast. Tell us what is on your mind. A real person writes you back.</p>
+  <a class="btn" id="cta" href="mailto:cnavarro.business@gmail.com" data-msg data-body="Hi Simple Solutions Marketing, here is what I need help with: ">Message us your marketing needs or worries</a>
+  
+  <!-- Needs owner confirmation (NEW copy): picker heading "What's your marketing headache?" and chips: Not enough leads, Leads go cold, Missed calls, Ads not working, Website feels outdated, Need an AI assistant. Picking chips pre-fills the hero text button body. -->
+  <div class="pick" role="group" aria-labelledby="pick-h">
+    <p class="pick-h" id="pick-h">What's your marketing headache?</p>
+    <div class="chips"><button type="button" class="chip" aria-pressed="false">Not enough leads</button><button type="button" class="chip" aria-pressed="false">Leads go cold</button><button type="button" class="chip" aria-pressed="false">Missed calls</button><button type="button" class="chip" aria-pressed="false">Ads not working</button><button type="button" class="chip" aria-pressed="false">Website feels outdated</button><button type="button" class="chip" aria-pressed="false">Need an AI assistant</button></div>
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap reveal">
+  <h2>What we do</h2>
+  <p class="sub">Five simple services. Use one or put them together.</p>
+  <!-- Needs owner confirmation (NEW copy): all "More about ..." accordion summaries and bullets in the service cards below. -->
+  <div class="grid">
+    <div class="card reveal"><h3>Websites</h3><p>Clean, mobile-first sites that load fast and make it easy for people to call, text or book.</p><details class="more"><summary>More about Websites</summary><div class="more-b"><ul><li>What we do: design and build mobile-first websites for local businesses.</li><li>What is included: clear pages with call, text and book buttons, set up and launched for you.</li><li>What you get: a site that is easy to use on a phone and easy for people to contact you from.</li></ul></div></details></div>
+    <div class="card reveal"><h3>Meta ads</h3><p>Facebook and Instagram ads that reach people near you, with clear tracking so you can see what is working.</p><details class="more"><summary>More about Meta ads</summary><div class="more-b"><ul><li>What we do: plan and run Facebook and Instagram ads.</li><li>What is included: audience targeting for people near you, plus tracking set up.</li><li>What you get: a clear view of what your ad spend is doing, from someone who has managed client ad budgets.</li></ul></div></details></div>
+    <div class="card reveal"><h3>Google ads</h3><p>Show up when people search for what you offer, right when they are ready to reach out.</p><details class="more"><summary>More about Google ads</summary><div class="more-b"><ul><li>What we do: set up and manage Google search campaigns.</li><li>What is included: keyword research and conversion tracking.</li><li>What you get: ads that show when people search for what you offer.</li></ul></div></details></div>
+    <div class="card reveal"><h3>AI assistant setup</h3><p>We can help you set up a simple AI assistant to answer common questions and save you time. We start small and keep you in control.</p><details class="more"><summary>More about AI assistant setup</summary><div class="more-b"><ul><li>What we do: help you set up a simple AI assistant.</li><li>What is included: answers to the common questions your customers ask.</li><li>What you get: a small start that saves time, with you in control.</li></ul></div></details></div>
+    <div class="card reveal"><h3>Speed-to-lead follow-up</h3>
+      <ul>
+        <li>Instant auto-reply to new leads</li>
+        <li>Missed-call text-back</li>
+        <li>CRM pipeline and follow-up on GoHighLevel</li>
+      </ul>
+      <details class="more"><summary>More about Speed-to-lead follow-up</summary><div class="more-b"><ul><li>What we do: help you reply to new leads fast.</li><li>What is included: instant auto-reply, missed-call text-back and a CRM pipeline on GoHighLevel, plus help with texting registration.</li><li>What you get: fewer leads slipping through the cracks.</li></ul></div></details>
+    </div>
+  </div>
+</div></section>
+
+<section id="industries"><div class="wrap reveal">
+  <h2>Built for many kinds of businesses</h2>
+  <p class="sub">If people call, text or fill out a form to hire you, we can help.</p>
+  <!-- Examples only, not a client list. -->
+  <ul class="tags">
+    <li>Dental and medical</li><li>Med spas and aesthetics</li><li>Solar and roofing</li><li>HVAC and plumbing</li><li>Remodeling and contractors</li><li>Legal and professional services</li><li>Landscaping and home services</li>
+  </ul>
+</div></section>
+
+<!-- Spanish section held for later (Cesar: English first, Spanish later) -->
+<section id="how"><div class="wrap reveal">
+  <h2>How it works</h2>
+  <ol class="steps sd">
+    <li>Message us what you need or what worries you.</li>
+    <li>We set up a short call to learn about your business.</li>
+    <li>We send a clear plan. You decide if it fits.</li>
+  </ol>
+</div></section>
+
+<section id="about"><div class="wrap reveal">
+  <h2>About Simple Solutions Marketing</h2>
+  <!-- Source: Cesar confirmed 2026-10-04 (via CoS) that Simple Solutions Marketing started in 2020 and has had about 10 to 12 clients. Domain: placeholder until ownership is confirmed. -->
+  <p class="sub">Simple Solutions Marketing has helped local businesses with their marketing since 2020. We have worked with about 10 to 12 businesses so far. We keep things simple, honest and personal.</p>
+</div></section>
+
+<section class="final"><div class="wrap reveal">
+  <h2>Not sure where to start?</h2>
+  <p class="sub">That is fine. Send us a message and tell us what is on your mind.</p>
+  <a class="btn" href="mailto:cnavarro.business@gmail.com" data-msg>Message us your marketing needs or worries</a>
+</div></section>
+</main>
+<!-- Needs owner confirmation (NEW copy): human-check dialog text: "Quick check", "Tap the leaf so we know you are a person.", "Leaf", "Stone", "Water drop", "Not quite. Try again.", "One moment, then tap the leaf again.", "Close". -->
+
+<a class="sticky" href="mailto:cnavarro.business@gmail.com" data-msg>Message us</a>
+
+<footer><div class="wrap">
+  <!-- Needs owner confirmation: business address/city line, privacy policy link, and SMS consent wording if texting is automated. -->
+  &copy; 2026 Simple Solutions Marketing
+</div></footer>
+<script>(()=>{const r=matchMedia('(prefers-reduced-motion: reduce)').matches;const els=document.querySelectorAll('.reveal');if(r||!('IntersectionObserver'in window)){els.forEach(e=>e.classList.add('in'));return}document.documentElement.classList.add('js');const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});els.forEach(e=>io.observe(e));setTimeout(()=>els.forEach(e=>e.classList.add('in')),1500)})();</script><script>(()=>{const d=document,R=matchMedia('(prefers-reduced-motion: reduce)').matches,F=matchMedia('(pointer:fine)').matches,root=d.documentElement;
+const tg=d.getElementById('tgl'),tt=tg.querySelector('.tgl-t');function sync(){const l=root.dataset.theme==='light';tg.setAttribute('aria-pressed',l);tt.textContent=l?'Dark':'Light';tg.setAttribute('aria-label',l?'Switch to dark mode':'Switch to light mode')}sync();
+tg.addEventListener('click',()=>{if(root.dataset.theme==='light')delete root.dataset.theme;else root.dataset.theme='light';try{localStorage.setItem('ss-theme',root.dataset.theme||'dark')}catch(e){}sync()});
+const chips=[...d.querySelectorAll('.chip')];
+function upd(){}
+chips.forEach(c=>c.addEventListener('click',()=>{c.setAttribute('aria-pressed',c.getAttribute('aria-pressed')!=='true');upd()}));
+if(R)return;
+if(F&&innerWidth>=900){const sp=d.querySelector('.spot');addEventListener('pointermove',e=>{sp.style.setProperty('--x',e.clientX+'px');sp.style.setProperty('--y',e.clientY+'px')},{passive:true})}
+if(F)d.querySelectorAll('.card').forEach(c=>{c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform='perspective(800px) rotateX('+(-y*5)+'deg) rotateY('+(x*5)+'deg) translateY(-3px)'});c.addEventListener('pointerleave',()=>{c.style.transform=''})})})();</script><script>(()=>{const E='cnavarro.business@gmail.com',d=document;
+function mk(b){return 'mailto:'+E+'?subject='+encodeURIComponent('Marketing help request')+'&body='+encodeURIComponent(b)}
+d.querySelectorAll('[data-msg]').forEach(a=>{a.href=mk(a.dataset.body||'Hi Simple Solutions Marketing, here is what I need help with: ')});
+const c=d.getElementById('cta');d.querySelectorAll('.chip').forEach(x=>x.addEventListener('click',()=>{setTimeout(()=>{const p=[...d.querySelectorAll('.chip[aria-pressed=true]')].map(c=>c.textContent);c.href=mk(p.length?'Hi Simple Solutions Marketing, my marketing headache: '+p.join(', ')+'.':c.dataset.body)},0)}));
+})();</script>
+</body>
+</html>
