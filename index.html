@@ -127,6 +127,12 @@ main,footer{position:relative;z-index:2}
 [data-theme=light] .spot{background:radial-gradient(420px circle at var(--x,-999px) var(--y,-999px),rgba(22,185,129,.08),transparent 70%)}
 @media(prefers-reduced-motion:reduce){.mesh i,.sd li,.more-b,.btn::before{animation:none!important}.btn::after{display:none}.spot{display:none!important}}
 @media(max-width:480px){.tgl-t{display:none}.tgl{padding:8px 12px}}
+.clients .client-list + .sub{margin-top:1.25rem}
+.client-list{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0}
+.client-list li{border-radius:999px;padding:10px 18px;font-weight:550;font-size:.98rem;line-height:1.35;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);color:#d7dde6}
+.muted{color:#7d8899;font-weight:450}
+[data-theme=light] .client-list li{background:rgba(255,255,255,.7);border-color:rgba(0,0,0,.12);color:#1f2933}
+[data-theme=light] .muted{color:#5b6573}
 
 dialog#gate{border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:0;max-width:min(400px,calc(100vw - 32px));width:100%;background:#0f131a;color:#e9edf3;box-shadow:0 30px 80px -20px rgba(0,0,0,.8)}
 dialog#gate::backdrop{background:rgba(3,5,8,.6);backdrop-filter:blur(6px)}
@@ -194,6 +200,29 @@ dialog#gate[open]{animation:pop .25s ease}@keyframes pop{from{opacity:0;transfor
   <!-- Examples only, not a client list. -->
   <ul class="tags">
     <li>Dental and medical</li><li>Med spas and aesthetics</li><li>Solar and roofing</li><li>HVAC and plumbing</li><li>Remodeling and contractors</li><li>Legal and professional services</li><li>Landscaping and home services</li>
+  </ul>
+</div></section>
+
+<section class="clients" id="clients" aria-label="Clients and companies"><div class="wrap reveal">
+  <h2>We've worked with</h2>
+  <p class="sub">Businesses Simple Solutions Marketing has helped.</p>
+  <ul class="client-list">
+    <li>Botox Barb</li>
+    <li>Milestone</li>
+    <li>Boardwalk Oranvale</li>
+    <li>Sotheby's agents</li>
+    <li>Hack Attack band</li>
+    <li>Island of Black and White</li>
+    <li>Honey Trap</li>
+    <li>Almighty Restaurant</li>
+    <li>Native and Nomad restaurant</li>
+    <li>Encanto restaurant</li>
+    <li>Jade Latin Group</li>
+    <li>TARTA (Texas)</li>
+  </ul>
+  <p class="sub">Also</p>
+  <ul class="client-list">
+    <li>SactownVideo <span class="muted">(prior company collaboration; not a Simple Solutions client account)</span></li>
   </ul>
 </div></section>
 
