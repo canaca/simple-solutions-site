@@ -6,10 +6,10 @@
 <meta name="theme-color" content="#07090d">
 <meta name="color-scheme" content="dark">
 <title>Simple Solutions Marketing | Ads that bring high-paying clients</title>
-<meta name="description" content="Meta and Google ads for med spas, dental, legal, and home improvement, plus AI for follow-up, booking, and CRM. Message us for the free guide, 7 Ways Local Businesses Lose Leads.">
+<meta name="description" content="Book a call. Simple Solutions runs Meta and Google ads for med spas, dental, legal, and home improvement, then AI for follow-up, booking, and CRM. The free guide is there if you want it first.">
 <meta name="robots" content="noindex, nofollow">
 <meta property="og:title" content="Simple Solutions Marketing | Ads that bring high-paying clients">
-<meta property="og:description" content="Meta and Google ads for med spas, dental, legal, and home improvement, plus AI for follow-up, booking, and CRM. Message us for the free guide, 7 Ways Local Businesses Lose Leads.">
+<meta property="og:description" content="Book a call. Simple Solutions runs Meta and Google ads for med spas, dental, legal, and home improvement, then AI for follow-up, booking, and CRM. The free guide is there if you want it first.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://canaca.github.io/simple-solutions-site/">
 <meta property="og:image" content="https://canaca.github.io/simple-solutions-site/assets/guide/7-ways-v5-cover.jpg">
@@ -18,7 +18,7 @@
 <meta property="og:image:height" content="1350">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Simple Solutions Marketing | Ads that bring high-paying clients">
-<meta name="twitter:description" content="Meta and Google ads for med spas, dental, legal, and home improvement, plus AI for follow-up, booking, and CRM. Message us for the free guide, 7 Ways Local Businesses Lose Leads.">
+<meta name="twitter:description" content="Book a call. Simple Solutions runs Meta and Google ads for med spas, dental, legal, and home improvement, then AI for follow-up, booking, and CRM. The free guide is there if you want it first.">
 <meta name="twitter:image" content="https://canaca.github.io/simple-solutions-site/assets/guide/7-ways-v5-cover.jpg">
 <meta name="twitter:image:alt" content="Cover of the free guide, 7 Ways Local Businesses Lose Leads. The cover still shows the words LOGO PLACEHOLDER.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2307090d'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%233ee0a6'/%3E%3C/svg%3E">
@@ -125,6 +125,8 @@ h3{font-family:var(--sans);font-weight:650;letter-spacing:-.02em;font-size:1.25r
 .cta-band{padding:8px 0 28px;scroll-margin-top:84px}
 .cta-band-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .cta-band p{color:var(--lede);max-width:36rem}
+.cta-actions{display:flex;flex-direction:column;gap:10px;align-items:stretch}
+.cta-actions .btn{width:100%}
 .service-grid{display:grid;gap:16px;margin-top:28px}
 .service{border-radius:24px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.02));padding:22px}
 .service h3{font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,3vw,2.5rem);margin:8px 0 12px}
@@ -198,7 +200,8 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
   #site-nav a,#site-nav.is-open a{border-bottom:0;border-radius:999px;padding:8px 10px;min-height:44px}
   .fields{grid-template-columns:1fr 1fr}
   .hero-card .form-actions,.guide-form .form-actions,.final-form .form-actions{grid-template-columns:1fr}
-  .cta-band .btn{width:auto}
+  .cta-band .cta-actions{flex-direction:row;align-items:center;justify-content:flex-end}
+  .cta-band .cta-actions .btn{width:auto}
   footer{padding-bottom:36px}
   .sticky-cta{display:none}
   .footer-grid{grid-template-columns:1.4fr .8fr;align-items:start}
@@ -261,7 +264,7 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
       <a href="#proof">Proof</a>
       <a href="#how">Process</a>
     </nav>
-    <a class="btn btn-small header-cta" href="#guide">Message us to get the free guide</a>
+    <a class="btn btn-small header-cta" data-book-call href="#book">Book a call</a>
     <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
   </div>
 </header>
@@ -276,24 +279,15 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
           <p class="kicker">Simple Solutions · Since 2020</p>
           <h1 id="hero-title">Ads that bring <em>high-paying clients.</em></h1>
           <p class="lede">Meta and Google ads for med spas and aesthetics, dental, legal, and home improvement. Then AI for lead follow-up, booking, and CRM.</p>
-          <p class="offer-line"><span class="free-pill">Free guide</span> 7 Ways Local Businesses Lose Leads — and how to fix them this week.</p>
+          <p class="offer-line">Book a call to talk through the ads. The free guide is second, if you want the seven leaks written down.</p>
         </div>
         <div class="hero-card">
-          <h2>Get the free guide</h2>
-          <p class="form-note">One offer. Send your name and email, and we reply with the guide.</p>
-          <form class="optin" id="hero-form" data-guide-form method="post" enctype="text/plain" action="mailto:cnavarro.business@gmail.com?subject=Free%20guide%3A%207%20Ways%20Local%20Businesses%20Lose%20Leads">
-            <div class="hp" aria-hidden="true"><label>Company<input type="text" tabindex="-1" autocomplete="off"></label></div>
-            <div class="fields">
-              <label for="name-hero">Name<input id="name-hero" name="name" type="text" autocomplete="name" required maxlength="80"></label>
-              <label for="email-hero">Email<input id="email-hero" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="120"></label>
-            </div>
-            <div class="form-actions">
-              <button class="btn" type="submit">Message us to get the free guide <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-              <a class="btn btn-ghost" href="mailto:cnavarro.business@gmail.com?subject=Book%20a%20call&amp;body=Hi%20Simple%20Solutions%20Marketing%2C%20I%20would%20like%20to%20book%20a%20call.">Book a call<span class="sr-only"> by email</span></a>
-            </div>
-            <p class="form-note">Free. This opens an email to <a href="mailto:cnavarro.business@gmail.com?subject=Free%20guide%3A%207%20Ways%20Local%20Businesses%20Lose%20Leads">cnavarro.business@gmail.com</a>. We reply with the guide.</p>
-            <p class="form-status" role="status"></p>
-          </form>
+          <h2>Book a call</h2>
+          <p class="form-note">Tell us about the business. We talk through the ads first. The guide can wait.</p>
+          <div class="cta-actions">
+            <a class="btn" data-book-call href="#book">Book a call</a>
+            <a class="btn btn-ghost" href="#guide">Get the free guide</a>
+          </div>
         </div>
       </div>
       <div class="industries">
@@ -323,15 +317,18 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
     </div>
   </section>
   <div class="cta-band"><div class="wrap cta-band-inner reveal">
-    <p>Those leaks are what the free guide is about.</p>
-    <a class="btn" href="#guide">Message us to get the free guide</a>
+    <p>Book a call and we talk through which leaks matter. The guide is there if you want it first.</p>
+    <div class="cta-actions">
+      <a class="btn" data-book-call href="#book">Book a call</a>
+      <a class="btn btn-ghost" href="#guide">Get the free guide</a>
+    </div>
   </div></div>
 
   <section id="services" aria-labelledby="services-title">
     <div class="wrap reveal">
       <p class="kicker">02 — The work</p>
       <h2 id="services-title">Ads, then automation.</h2>
-      <p class="sub">The guide shows where leads leak. This is the work we do about it. Ads are the primary service. AI automation is second. Neither one is a price list, and the offer on this page is still the free guide.</p>
+      <p class="sub">The guide names where leads leak. This is the work we do about it. Ads are the primary service. AI automation is second. The next step on this page is a call. The guide is there if you want the checklist first.</p>
       <div class="service-grid">
         <article class="service service-ads">
           <p class="svc-index">01 · Primary service</p>
@@ -359,8 +356,11 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
     </div>
   </section>
   <div class="cta-band"><div class="wrap cta-band-inner reveal">
-    <p>Start with the guide. Ads and automation come after you ask.</p>
-    <a class="btn" href="#guide">Message us to get the free guide</a>
+    <p>Book a call to talk through the ads and the automation.</p>
+    <div class="cta-actions">
+      <a class="btn" data-book-call href="#book">Book a call</a>
+      <a class="btn btn-ghost" href="#guide">Get the free guide</a>
+    </div>
   </div></div>
 
   <section id="story" class="story" aria-labelledby="story-title">
@@ -377,8 +377,11 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
     </div>
   </section>
   <div class="cta-band"><div class="wrap cta-band-inner reveal">
-    <p>You can request the guide while that story is still open.</p>
-    <a class="btn" href="#guide">Message us to get the free guide</a>
+    <p>Book a call. The rest of Cesar’s story can wait.</p>
+    <div class="cta-actions">
+      <a class="btn" data-book-call href="#book">Book a call</a>
+      <a class="btn btn-ghost" href="#guide">Get the free guide</a>
+    </div>
   </div></div>
 
   <section id="proof" aria-labelledby="proof-title">
@@ -469,8 +472,11 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
     </div>
   </section>
   <div class="cta-band"><div class="wrap cta-band-inner reveal">
-    <p>The names above are the client list. The next step is the guide.</p>
-    <a class="btn" href="#guide">Message us to get the free guide</a>
+    <p>The names above are the client list. The next step is a call.</p>
+    <div class="cta-actions">
+      <a class="btn" data-book-call href="#book">Book a call</a>
+      <a class="btn btn-ghost" href="#guide">Get the free guide</a>
+    </div>
   </div></div>
 
   <section id="how" aria-labelledby="how-title">
@@ -479,16 +485,16 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
       <h2 id="how-title">How it works</h2>
       <ol class="steps">
         <li>
-          <h3>Message us</h3>
-          <p>Send your name and email with “Message us to get the free guide.” That opens an email to Simple Solutions. We reply with the guide.</p>
+          <h3>Book a call</h3>
+          <p><a data-book-call href="#book">Book a call</a> and tell us the business, the offer, and who a high-paying client is. The free guide is optional if you want the checklist first.</p>
         </li>
         <li>
-          <h3>Read the seven leaks</h3>
-          <p>Use the guide to mark which leaks match the business. It is a checklist, not a promise of results.</p>
+          <h3>We map the ads</h3>
+          <p>We look at Meta and Google, and at where leads leak after the click. The guide’s seven leaks are the checklist, not a promise of results.</p>
         </li>
         <li>
-          <h3>Book a call if you want it built</h3>
-          <p><a href="mailto:cnavarro.business@gmail.com?subject=Book%20a%20call&amp;body=Hi%20Simple%20Solutions%20Marketing%2C%20I%20would%20like%20to%20book%20a%20call.">Book a call</a><span class="sr-only"> by email</span> when you want us to run the Meta and Google ads and set up lead follow-up, booking, and CRM workflows.</p>
+          <h3>We launch the work</h3>
+          <p>We run the Meta and Google ads, and we set up lead follow-up, booking, and CRM workflows.</p>
         </li>
       </ol>
     </div>
@@ -496,9 +502,9 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
 
   <section id="guide" aria-labelledby="guide-title">
     <div class="wrap reveal">
-      <p class="kicker">06 — The offer</p>
+      <p class="kicker">06 — The guide, if you want it</p>
       <h2 id="guide-title">7 Ways Local Businesses Lose Leads</h2>
-      <p class="sub">And how to fix them this week. A free guide from Simple Solutions Marketing. No prices. Message us and we send it.</p>
+      <p class="sub">And how to fix them this week. A free guide from Simple Solutions Marketing. No prices. Book a call is the main step. This form is how you ask for the guide.</p>
       <div class="guide-grid">
         <figure class="cover">
           <div class="cover-frame">
@@ -523,6 +529,9 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
             <li><span class="num" aria-hidden="true">06</span><div><p class="stack-title">No follow-up</p><p>When one reply is the end of the conversation.</p></div></li>
             <li><span class="num" aria-hidden="true">07</span><div><p class="stack-title">No lead tracking</p><p>When leads live in too many places to review.</p></div></li>
           </ol>
+          <div class="cta-actions" style="margin-bottom:14px">
+            <a class="btn" data-book-call href="#book">Book a call</a>
+          </div>
           <form class="optin guide-form" id="get-the-guide" data-guide-form method="post" enctype="text/plain" action="mailto:cnavarro.business@gmail.com?subject=Free%20guide%3A%207%20Ways%20Local%20Businesses%20Lose%20Leads">
             <div class="hp" aria-hidden="true"><label>Company<input type="text" tabindex="-1" autocomplete="off"></label></div>
             <div class="fields">
@@ -530,10 +539,9 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
               <label for="email-guide">Email<input id="email-guide" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="120"></label>
             </div>
             <div class="form-actions">
-              <button class="btn" type="submit">Message us to get the free guide <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-              <a class="btn btn-ghost" href="mailto:cnavarro.business@gmail.com?subject=Book%20a%20call&amp;body=Hi%20Simple%20Solutions%20Marketing%2C%20I%20would%20like%20to%20book%20a%20call.">Book a call<span class="sr-only"> by email</span></a>
+              <button class="btn btn-ghost" type="submit">Get the free guide</button>
             </div>
-            <p class="form-note">Free. This opens an email to <a href="mailto:cnavarro.business@gmail.com?subject=Free%20guide%3A%207%20Ways%20Local%20Businesses%20Lose%20Leads">cnavarro.business@gmail.com</a>. We reply with the guide. There is no public download on this page.</p>
+            <p class="form-note">Free, and second to the call. This opens an email to <a href="mailto:cnavarro.business@gmail.com?subject=Free%20guide%3A%207%20Ways%20Local%20Businesses%20Lose%20Leads">cnavarro.business@gmail.com</a>. We reply with the guide. There is no public download on this page.</p>
             <p class="form-status" role="status"></p>
           </form>
         </div>
@@ -541,24 +549,15 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
     </div>
   </section>
 
-  <section class="final" id="close" aria-labelledby="close-title">
+  <section class="final" id="book" aria-labelledby="close-title">
     <div class="wrap reveal">
-      <p class="kicker">Free guide</p>
-      <h2 id="close-title">Message us to get the free guide.</h2>
-      <p class="sub">We send 7 Ways Local Businesses Lose Leads. If you want the ads and the automation built, book a call. Running since 2020. We do not promise results.</p>
-      <form class="optin final-form" data-guide-form method="post" enctype="text/plain" action="mailto:cnavarro.business@gmail.com?subject=Free%20guide%3A%207%20Ways%20Local%20Businesses%20Lose%20Leads">
-        <div class="hp" aria-hidden="true"><label>Company<input type="text" tabindex="-1" autocomplete="off"></label></div>
-        <div class="fields">
-          <label for="name-close">Name<input id="name-close" name="name" type="text" autocomplete="name" required maxlength="80"></label>
-          <label for="email-close">Email<input id="email-close" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="120"></label>
-        </div>
-        <div class="form-actions">
-          <button class="btn" type="submit">Message us to get the free guide <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-          <a class="btn btn-ghost" href="mailto:cnavarro.business@gmail.com?subject=Book%20a%20call&amp;body=Hi%20Simple%20Solutions%20Marketing%2C%20I%20would%20like%20to%20book%20a%20call.">Book a call<span class="sr-only"> by email</span></a>
-        </div>
-        <p class="form-note">Free. This opens an email to <a href="mailto:cnavarro.business@gmail.com?subject=Free%20guide%3A%207%20Ways%20Local%20Businesses%20Lose%20Leads">cnavarro.business@gmail.com</a>. We reply with the guide.</p>
-        <p class="form-status" role="status"></p>
-      </form>
+      <p class="kicker">Next step</p>
+      <h2 id="close-title">Book a call.</h2>
+      <p class="sub">Tell us about the business. We talk through Meta and Google ads, then follow-up, booking, and CRM. The free guide is second, if you want the checklist. Running since 2020. We do not promise results.</p>
+      <div class="cta-actions">
+        <a class="btn" data-book-call href="#book">Book a call</a>
+        <a class="btn btn-ghost" href="#guide">Get the free guide</a>
+      </div>
     </div>
   </section>
 </main>
@@ -576,15 +575,25 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
       <a href="#proof">Proof</a>
       <a href="#clients">Clients</a>
       <a href="#how">Process</a>
-      <a href="mailto:cnavarro.business@gmail.com?subject=Book%20a%20call&amp;body=Hi%20Simple%20Solutions%20Marketing%2C%20I%20would%20like%20to%20book%20a%20call.">Book a call</a>
+      <a data-book-call href="#book">Book a call</a>
     </nav>
   </div>
 </footer>
-<a class="sticky-cta" id="sticky-cta" href="#guide">
-  <span class="btn">Message us<span class="sr-only"> to get the free guide</span></span>
+<a class="sticky-cta" id="sticky-cta" data-book-call href="#book">
+  <span class="btn">Book a call</span>
 </a>
 <script>
 (() => {
+  // BOOKING URL — change this one line to a Calendly or Cal.com link when one exists.
+  const BOOK_URL = "mailto:cnavarro.business@gmail.com?subject=Book%20a%20call";
+  document.querySelectorAll("[data-book-call]").forEach((el) => {
+    el.href = BOOK_URL;
+    if (/^https?:/i.test(BOOK_URL)) {
+      el.target = "_blank";
+      el.rel = "noopener noreferrer";
+    }
+  });
+
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const reveal = document.querySelectorAll(".reveal");
   if (reduce || !("IntersectionObserver" in window)) {
@@ -645,7 +654,11 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
   }
 
   const sticky = document.getElementById("sticky-cta");
-  const forms = [...document.querySelectorAll("[data-guide-form]")];
+  const stickyWatch = [
+    document.querySelector(".hero-card"),
+    document.getElementById("get-the-guide"),
+    document.getElementById("book"),
+  ].filter(Boolean);
   if (sticky && "IntersectionObserver" in window) {
     const seen = new Set();
     const stickyIO = new IntersectionObserver((entries) => {
@@ -654,8 +667,8 @@ footer{padding:28px 0 108px;border-top:1px solid rgba(255,255,255,.08);color:var
         else seen.delete(entry.target);
       });
       sticky.classList.toggle("is-hidden", seen.size > 0);
-    }, { threshold: 0.35 });
-    forms.forEach((form) => stickyIO.observe(form));
+    }, { threshold: 0.4 });
+    stickyWatch.forEach((el) => stickyIO.observe(el));
   }
 
   const subject = "Free guide: 7 Ways Local Businesses Lose Leads";
