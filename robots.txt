@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://canaca.github.io/simple-solutions-site/sitemap.xml
